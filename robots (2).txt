@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /api/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /wishlist/
+Disallow: /?session=
+Disallow: /tmp/
+
+Sitemap: https://luxe-noir-3im.pages.dev/sitemap.xml
+
+Crawl-delay: 10
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
